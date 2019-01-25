@@ -85,6 +85,32 @@ body {
   }
 }
 
+code{
+  line-height: 180%;
+}
+
+.code-wrapper{
+  line-height: 150%;
+}
+
+@media(min-width: 450px){
+  .code-wrapper{
+    margin-left:5em;
+  }
+}
+
+@media(max-width: 390px){
+  .code-wrapper{
+    font-size: 65%;
+  }
+}
+
+@media(max-width: 290px){
+  .code-wrapper{
+    font-size: 60%;
+  }
+}
+
 
 .lab-slide {
   margin-bottom: 2em;
